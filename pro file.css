@@ -1,0 +1,51 @@
+* {
+   background-color: #19364E;
+    padding: 0px;
+    margin: 13px;
+}
+
+.container ul {
+    padding: 2px 35px;
+    display: flex;
+    list-style-type: none;
+    float: right;
+    color: rgb(255, 255, 255);
+    
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    text-decoration :none;
+}
+
+.container ul li a {
+    color: white; 
+}
+
+.container ul li a:hover {
+    text-decoration: none;
+    color:#ff0000;  
+    text-transform: uppercase;
+}
+
+.box {
+    color: white;
+    font-family: 'My Soul';
+    width: 285px;
+        border: 2px solid white ;
+        padding: 25px;
+        margin: 23px;
+        position: column;
+    }
+
+    
+.main-box{
+    display: flex;
+    flex-wrap: wrap;
+}
